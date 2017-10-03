@@ -1,19 +1,18 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Скрипт для отображения файлов формата .json в удобочитаемом виде.
 
 # Quickstart
 
-[TODO]
+Example of script launch on Windows, Python 3.5:
 
-Example of script launch on Linux, Python 3.5:
+C:\Users\Adderall\PretyPrintJson> python ppjson.py
+Enter the path to the file: data.json
+{'a': 123,
+ 'b': '4 '
+      '5 '
+      '6'}
 
-```#!bash
-
-$ python pprint_json.py <path to file>
-# TODO add output example
-
-```
 
 # Project Goals
 
