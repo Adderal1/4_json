@@ -3,9 +3,9 @@ import pprint
 
 def load_data(filepath):
     with open(filepath, encoding='Latin-1') as row_data:
-        data = row_data.read()
+        json_content = row_data.read()
     row_data.close()
-    return json.load(data)
+    return json.load(json_content)
 
 
 def pretty_print_json(data):
