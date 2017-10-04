@@ -3,9 +3,9 @@ import pprint
 
 def load_data(filepath):
     with open(filepath, encoding='Latin-1') as row_data:
-        json_content = row_data.read()
+        unreadable_json = row_data.read()
     row_data.close()
-    return json.load(json_content)
+    return json.load(unreadable_json)
 
 
 def pretty_print_json(data):
@@ -13,5 +13,5 @@ def pretty_print_json(data):
 
 
 if __name__ == '__main__':
-    json_content = load_data(input('Enter the path to the file: '))
-    pretty_print_json(json_content)
+    unreadable_json = load_data(input('Enter the path to the file: '))
+    pretty_print_json(unreadable_json)
