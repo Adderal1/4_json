@@ -10,13 +10,14 @@ Example of script launch on Windows, Python 3.5:
 <code>python ppjson.py</code>
 
 Исполнение скрипта:
+<code>
 Enter the path to the file: yourfile.json
 
 {'a': 123,
  'b': '4 '
       '5 '
       '6'}
-
+</code>
 
 # Project Goals
 
