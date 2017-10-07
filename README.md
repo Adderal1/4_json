@@ -6,8 +6,12 @@
 
 Example of script launch on Windows, Python 3.5:
 
-C:\Users\Adderall\PretyPrintJson> python ppjson.py
-Enter the path to the file: data.json
+Вызов скрипта: 
+python ppjson.py 
+
+Исполнение скрипта:
+Enter the path to the file: yourfile.json
+
 {'a': 123,
  'b': '4 '
       '5 '
