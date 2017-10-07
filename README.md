@@ -7,17 +7,19 @@
 Example of script launch on Windows, Python 3.5:
 
 Вызов скрипта: 
-<code>python ppjson.py</code>
-
+```
+python ppjson.py
+```
 Исполнение скрипта:
-<code>
+```
 Enter the path to the file: yourfile.json
-
-<code>{'a': 123,
-       'b': '4 '
-            '5 '
-            '6'}</code>
-</code>
+```
+```
+{'a': 123,
+ 'b': '4 '
+      '5 '
+      '6'}
+```
 
 # Project Goals
 
