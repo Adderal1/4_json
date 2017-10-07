@@ -7,7 +7,7 @@
 Example of script launch on Windows, Python 3.5:
 
 Вызов скрипта: 
-python ppjson.py 
+<code>python ppjson.py</code>
 
 Исполнение скрипта:
 Enter the path to the file: yourfile.json
