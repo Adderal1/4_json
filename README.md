@@ -1,10 +1,10 @@
-# Prettify JSON
+# Читабельный JSON
 
 Скрипт для отображения файлов формата .json в удобочитаемом виде.
 
-# Quickstart
+# Руководство 
 
-Example of script launch on Windows, Python 3.5:
+Пример работы скрипта на Windows и Linux:
 
 Вызов скрипта: 
 ```
