@@ -2,9 +2,9 @@ import json
 import pprint
 
 def load_data(filepath):
-    with open(filepath, encoding='Latin-1') as row_data:
-        make_json_pretty = row_data.read()
-    row_data.close()
+    with open(filepath, encoding='Latin-1') as row_json_content:
+        make_json_pretty = row_json_content.read()
+    row_json_content.close()
     return json.load(make_json_pretty)
 
 
